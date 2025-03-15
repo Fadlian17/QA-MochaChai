@@ -1,9 +1,9 @@
 {
   "name": "mochachaiexplore",
   "version": "1.0.0",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "cucumber-js"
+    "test": "mocha"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +19,9 @@
     "puppeteer": "^24.2.0"
   },
   "devDependencies": {
-    "@cucumber/cucumber": "^11.2.0"
+    "@cucumber/cucumber": "^11.2.0",
+    "chai": "^5.1.2",
+    "chai-http": "^5.1.1",
+    "mocha": "^11.1.0"
   }
 }
